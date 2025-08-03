@@ -17,7 +17,7 @@ function FileUpload() {
 
     setUploading(true);
     axios
-      .post('http://localhost:3000/api/upload', formData, {
+      .post(`${import.meta.env.VITE_BACKEND_API}/api/upload`, formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       })
       .then(res => {

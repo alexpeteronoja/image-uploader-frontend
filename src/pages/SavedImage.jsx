@@ -11,7 +11,7 @@ function SavedImage() {
     async function getImage() {
       try {
         const res = await axios.get(
-          `http://localhost:3000/api/download/${fileName}`,
+          `${import.meta.env.VITE_BACKEND_API}/api/download/${fileName}`,
           {
             responseType: 'blob',
           }
