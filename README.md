@@ -25,4 +25,4 @@ This is a React-based frontend for uploading and viewing images. It interacts wi
 
 ## 📸 Demo Preview
 
-Here is the [Demo Preview of my Work](https://tailwindcss.com/)
+Here is the [Demo Preview of my Work](https://image-uploader-omega-three.vercel.app/)
